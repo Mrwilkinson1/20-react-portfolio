@@ -9,11 +9,11 @@ function PortNavbar() {
       {/* <header> */}
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">Portfolio</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#Resume">Resume</Nav.Link>
+            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <Nav.Link href="#About me">About Me</Nav.Link>
           </Nav>
 
         </Container>

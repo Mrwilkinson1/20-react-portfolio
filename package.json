@@ -1,5 +1,13 @@
 {
+  "homepage": "https://mrwilkinson1.github.io/20-react-portfolio",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
   "dependencies": {
-    "bootstrap": "^5.2.0"
+    "bootstrap": "^5.2.0",
+    "react-scripts": "^5.0.1"
   }
 }
